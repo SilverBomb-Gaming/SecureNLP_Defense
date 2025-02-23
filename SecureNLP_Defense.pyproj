@@ -21,9 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="evaluate_model.py" />
     <Compile Include="results\main.py" />
     <Compile Include="scripts\train_nlp_model.py" />
     <Compile Include="SecureNLP_Defense.py" />
+    <Compile Include="test_model.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
